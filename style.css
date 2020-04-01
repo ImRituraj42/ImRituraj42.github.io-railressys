@@ -93,7 +93,6 @@ a:hover {
 }
 
 input {
-    cursor: pointer;
     text-align: center;
     width: auto;
     font-family:  sans-serif;
@@ -108,7 +107,6 @@ input {
   }
 
 select {
-    cursor: pointer;
     width: auto;
     font-family:  sans-serif;
     padding: 10px 10px;
