@@ -1,17 +1,21 @@
 body{
-    display: flex;
+    display: grid;
     margin: 0;
-    background: url(passengers.jpg);
-    background-size: ;
+    background : url(knife.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
+
 .navbar {
     font-family: "Lato", "Arial", sans-serif;
-    display: grid;
-    grid-column: 1/-1;
     padding: 1em;
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: rgba(203, 203, 201, 0.4);
 }
 
 .nav_list {
@@ -29,7 +33,7 @@ li {
 }
 
 a {
-    color: whitesmoke;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.1s linear;
@@ -41,4 +45,27 @@ a:hover {
     -o-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
     box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
     border-radius: 1px;
+}
+
+
+
+.menu {
+	display: flex;
+    flex-wrap: nowrap;
+    margin-top: 11em;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+img {
+    cursor: pointer;
+	width: 600px;
+    height: 400px;
+    margin: 20px;
+    transition: all 1s;
+    transition-delay: 50ms;
+}
+
+img:hover {
+    transform: scale(1.06);
 }

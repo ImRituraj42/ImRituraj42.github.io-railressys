@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-flow: row;
     margin: 0;
-    
     font-family: "Lato", "Arial", sans-serif;
     background : url(plane.jpg);
     background-size: 100%;
