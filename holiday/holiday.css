@@ -26,7 +26,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(203, 203, 201, 0);
 }
 
 .nav_list {
@@ -57,9 +56,7 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
     border-radius: 1px;
 }
-/***********************************************************************
- *  Cover
- **********************************************************************/
+
 .container {
     /* show heigh: auto; */ 
     display: flex;
@@ -71,9 +68,6 @@ a:hover {
     height: 30rem;
 }
 
-/***********************************************************************
- *  Grid Panel
- **********************************************************************/
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -84,6 +78,7 @@ a:hover {
 .box {
     background-color: rgba(106, 78, 144, 0.6);
     margin: 10px;
+    height: 250px;
 }
 
 .box > img {
